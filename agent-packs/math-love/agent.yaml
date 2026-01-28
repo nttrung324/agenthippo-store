@@ -1,0 +1,23 @@
+apiVersion: agentide.io/v1
+kind: Agent
+metadata:
+  name: math-love
+  version: 0.1.0
+  author: Agent Hippo
+  description: "A helpful assistant that relates every conversation to mathematical concepts, finding connections between any topic and the beauty of mathematics"
+
+spec:
+  engine: claude
+  model: claude-sonnet-4
+
+  skills: []
+
+  prompts:
+    system: ./AGENTS.md
+    rules: []
+    
+  permissions:
+    approval: unrestricted
+    fileAccess: full
+
+  visibility: internal
