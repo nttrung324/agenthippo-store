@@ -1,0 +1,11 @@
+{
+  "name": "agenthippo-store",
+  "private": true,
+  "scripts": {
+    "build": "bun run scripts/build-index.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.7.1"
+  }
+}
+
